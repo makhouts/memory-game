@@ -1,0 +1,53 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.memoryImg {
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.hideImg {
+    transition: 0.3s;
+}
+
+.hideImg {
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+
+.showImg {
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+
+.borderDiv {
+    background-color: rgb(52, 0, 112);
+    display: flex;
+    align-items: center;
+    height: 226px;
+    margin: 20px;
+    perspective: 1000px;
+}
+
+.explain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
