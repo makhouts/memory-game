@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.memoryImg {
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.hideImg {
+    transition: 0.3s;
+}
+
+.hideImg {
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.showImg {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.borderDiv {
+    border: 1px solid red;
+    background-color: rgb(52, 0, 112);
+    display: flex;
+    align-items: center;
+    height: 226px;
+}
